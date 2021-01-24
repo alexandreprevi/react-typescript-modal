@@ -1,9 +1,9 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment, FC } from "react";
 import "./App.css";
 
 import Modal from "./Modal";
 
-const App = () => {
+const App: FC = () => {
   const [isModalOpened, setIsModalOpened] = useState(false);
   const [isModalOpened2, setIsModalOpened2] = useState(false);
 
